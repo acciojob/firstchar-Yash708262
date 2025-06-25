@@ -1,7 +1,7 @@
 function firstChar(text) {
   for(let i = 0; i < text.length; i++){
-	  if(str[i] !== ''){
-		  return str[i];
+	  if(text[i] !== ''){
+		  return text[i];
 	  }
   }
 	return ''

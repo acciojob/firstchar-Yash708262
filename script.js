@@ -1,5 +1,10 @@
 function firstChar(text) {
-  // your code here
+  for(let i = 0; i < text.length; i++){
+	  if(str[i] !== ''){
+		  return str[i];
+	  }
+  }
+	return ''
 }
 
 // Do not change the code below
